@@ -1,0 +1,8 @@
+
+#Create the file RouteTrack.sh and store it on /mnt/flash/ of the switch.
+
+#Config needed
+event-handler RouteTrack
+  trigger on-boot
+  delay 300
+  action bash /mnt/flash/RouteTack.sh
